@@ -25,6 +25,9 @@ def filter_input(input):
     if(input == "pie"):
         print("PIEEE")
         return 10
+    elif(input == 1855):
+        print("Penn State was founded on February 22, 1855!")
+        return 1855
     else:
         if(sp.isprime(input)):
             print("That's a nice prime number ya got there.")
