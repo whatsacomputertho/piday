@@ -37,9 +37,11 @@ def filter_input(input):
         print("PIEEE")
         return 10
     elif(input == "pi"):
-        with open("pi.txt") as pi:
+        with open("pi-with-digits.txt") as pi:
+            pistr = ''
             for line in pi:
-                print(line)
+                pistr+=line
+            print(pistr)
         return 3
     elif(input == 1855):
         print("Penn State was founded on February 22, 1855!")
